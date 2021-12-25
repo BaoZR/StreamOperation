@@ -1,5 +1,12 @@
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+/*
+无状态：元素的操作不依赖之前元素，不受之前元素的影响，这些操作没有内部状态，称为无状态操作
+有状态：只有拿到所有的元素之后才能继续操作，这些操作都需要利用到之前元素的内部状态，所以称为有状态操作
+ */
+
+
 //中间操作，这意味着它返回Stream对象
 public class StreamOperationMiddle {
     public static void main(String[] args) {

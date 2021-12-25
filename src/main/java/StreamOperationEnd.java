@@ -2,7 +2,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+/*
+*非短路操作：必须所有元素都处理完才能得到最终的结果
+*短路操作：一旦得到符合条件的元素就可以中断流得到最终的结果
+ */
 public class StreamOperationEnd {
     public static void main(String[] args) {
         String str = "bu gao xing jiu he shui";
